@@ -134,6 +134,13 @@ export const validatePayload = (payload: AsyncpayCheckoutInterface) => {
   }
   if (payload.customer_email) {
     validateEmail(payload.customer_email);
+    if (payload?.customer || payload?.customer_uuid) {
+      throw new Error(
+        returnValidationError(
+          'The customer email field prohibits customer / customer uuid from being present.'
+        )
+      );
+    }
   }
   if (payload.customer_uuid) {
     validateUUID(payload.customer_uuid);
