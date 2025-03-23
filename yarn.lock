@@ -4741,7 +4741,7 @@ __metadata:
 
 "checkout-react-native@file:./..::locator=checkout-react-native-example%40workspace%3Aexample":
   version: 0.1.0
-  resolution: "checkout-react-native@file:./..#./..::hash=360ed8&locator=checkout-react-native-example%40workspace%3Aexample"
+  resolution: "checkout-react-native@file:./..#./..::hash=14b82a&locator=checkout-react-native-example%40workspace%3Aexample"
   dependencies:
     axios: 1.7.7
     numeral: ^2.0.6
@@ -4751,7 +4751,7 @@ __metadata:
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: ab560c0fcdb451b968938bd70b8276f7c1fda96e1f82149b57ed0123dd02e3d37f2a4ac4cfa33c02926047ea47bc77c7788a885353709da3607191b89e9788e7
+  checksum: 59c56ce9ecf169d2f5a0482fbc28fe2e5b0f535a6c937bd36f342d03ea03c805b8aed0d1fb85f0ab9b66c29b198d3c5103c9418404e052b6e9f1a135bdc524ce
   languageName: node
   linkType: hard
 
