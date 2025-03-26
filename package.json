@@ -1,6 +1,6 @@
 {
-  "name": "checkout-react-native",
-  "version": "0.1.0",
+  "name": "@asyncpay/checkout-react-native",
+  "version": "0.0.2",
   "description": "This SDK allows you to seamlessly connect to multiple payment channels such as Flutterwave, Paystack and Stripe and create a checkout experience with only one integration.",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
@@ -55,7 +55,7 @@
     "url": "git+https://github.com/Asyncpay-io/checkout-react-native.git"
   },
   "author": "Boma <amakirisamuelboma@gmail.com> (https://github.com/boma25)",
-  "license": "MIT",
+  "license": "BSL-1.0",
   "bugs": {
     "url": "https://github.com/Asyncpay-io/checkout-react-native/issues"
   },
